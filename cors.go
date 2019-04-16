@@ -1,5 +1,5 @@
 /*!
- * rest-api-framework
+ * go-rs/cors
  * Copyright(c) 2019 Roshan Gade
  * MIT Licensed
  */
