@@ -36,6 +36,6 @@ config := cors.Config{
     MaxAge: 6 * time.Hour,
 }
 
-api.Use(cors.CorsRequest(config))
+api.Use(cors.Load(config))
 
 ```

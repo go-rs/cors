@@ -165,7 +165,7 @@ func corsPreFlightRequest(ctx *rest.Context, config Config) {
 /**
  * Cors request
  */
-func CorsRequest(config Config) rest.Handler {
+func Load(config Config) rest.Handler {
 	merge(_config, &config)
 	allowedAllOrigins := hasMatch(_config.Origin, "*")
 	return func(ctx *rest.Context) {
